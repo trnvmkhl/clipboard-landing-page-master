@@ -1,5 +1,5 @@
 My solution for the 1440px and 375px screens
-![Check here](https://trnvmkhl.github.io/clipboard-landing-page-master/)
+[Check here](https://trnvmkhl.github.io/clipboard-landing-page-master/)
 
 # Frontend Mentor - Clipboard landing page
 
