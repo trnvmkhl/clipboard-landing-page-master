@@ -1,0 +1,170 @@
+body {
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 17px;
+}
+
+main {
+  max-width: 1440px;
+}
+
+
+footer {
+  background-color: hsl(0, 0%, 81%);
+  position: absolute;
+  width: 100%;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+}
+
+p {
+  color: hsl(201, 11%, 66%);
+}
+
+ul {
+  list-style-type: none;
+  text-align: left;
+}
+
+li {
+  margin: 60px 0;
+}
+
+a:hover {
+  color: hsl(171, 66%, 44%);
+}
+
+/* h2 blocks */
+
+.top-block {
+  padding: 0 27%;
+  margin: 10% 0 7%;
+}
+
+/* buttons */
+
+.btn {
+  margin-top: 3%;
+  color: #fff;
+}
+
+.btn-cyan {
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: 0 15px 15px -15px hsl(171, 66%, 44%);
+}
+
+.btn-blue {
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 0 15px 15px -15px hsl(233, 100%, 69%);
+}
+
+.btn:hover {
+  color: #fff;
+  opacity: 60%;
+}
+
+/* Header section */
+
+.header {
+  background-image: url(../images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  padding: 0 27%;
+  background-size: 100%;
+}
+
+.logo-img {
+  margin: 60px 0 20px;
+}
+
+
+/* Snippets section */
+
+.computer-img {
+  position: absolute;
+  left: -20px;
+}
+
+
+.list {
+  padding-right: 19%;
+  padding-left: 3%;
+}
+
+/* Supercharge section */
+
+.supercharge.top-block {
+  margin: 5% 0 7%;
+}
+
+.opportunities {
+  padding: 0 10%;
+}
+
+
+/* Clienst section */
+
+.clients {
+  margin-top: 10%;
+}
+
+/* Footer section */
+
+.fab {
+  color: hsl(210, 10%, 33%);
+}
+
+.fab:hover {
+  color: hsl(171, 66%, 44%);
+}
+
+.link {
+  text-decoration: none;
+  color: hsl(210, 10%, 33%);
+  display: block;
+}
+
+.footer-logo-img {
+  width: 15%;
+}
+
+/* Attribution section */
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* Responsiveness */
+
+@media (max-width: 768px) {
+
+
+
+  ul {
+    text-align: center;
+    padding: 0 5%;
+  }
+
+  .header {
+    padding: 0 5%;
+    background-image: url(../images/bg-header-mobile.png);
+  }
+
+
+  .list {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+
+  .top-block {
+    padding: 0 5%;
+    margin: 10% 0 7%;
+  }
+
+  .computer-img {
+    position: static;
+
+  }
+
+}
